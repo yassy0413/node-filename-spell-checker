@@ -20,7 +20,7 @@ Then a console window will appear, and you can drop the folder you want to analy
 node src/app.js -t TARGET_PATH
 ```
 
-## Recursive (-r)
+## Recursive search (-r)
 ```bash
 node src/app.js -t TARGET_PATH -r
 ```
@@ -41,5 +41,5 @@ node src/app.js -f PATH_TO_FREQUENCY_WORDLIST
 
 ## Set ignore words (-i)
 ```bash
-node src/app.js -f PATH_TO_IGNORE_WORDLIST
+node src/app.js -i PATH_TO_IGNORE_WORDLIST
 ```
