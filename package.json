@@ -1,0 +1,13 @@
+{
+  "name": "node-filename-spell-checker",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "keywords": [],
+  "author": "yassy",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "spellchecker": "^3.7.1"
+  },
+  "description": ""
+}
