@@ -2,6 +2,9 @@
   "name": "node-filename-spell-checker",
   "version": "1.0.0",
   "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js -r -f res/frequency_word.txt -i res/ignore_word.txt -d _"
+  },
   "keywords": [],
   "author": "yassy",
   "license": "ISC",
