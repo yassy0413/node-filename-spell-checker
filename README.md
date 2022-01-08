@@ -40,8 +40,7 @@ node src/app.js -d _-
 ```
 
 ex)
-chr001_fire_boy.txt
-  [chr, fire, boy]が検索対象となります。
+chr001_fire_boy.txt => [chr, fire, boy]が検索対象となります。
 
 ## Add specified words (-f)
 ```bash
