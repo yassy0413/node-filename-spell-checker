@@ -1,7 +1,11 @@
 # node-filename-spell-checker
 Search for misspelled file names in the target directory.
+The file name is split and validated by the delimiter.
+Numbers in the file name will be ignored.
 
 対象フォルダ内にあるスペルミスがあるファイル名を検索します。
+ファイル名はデリミタによって分割されて検証されます。
+ファイル名に含まれる数字は無視されます。
 
 # Setup
 
@@ -15,7 +19,7 @@ Search for misspelled file names in the target directory.
 run `run.command` or `run.bat` .
 Then a console window will appear, and you can drop the folder you want to analyze and hit enter.
 
-## Set the target director. (-t)
+## Set the target directory. (-t)
 ```bash
 node src/app.js -t TARGET_PATH
 ```
@@ -29,6 +33,10 @@ node src/app.js -t TARGET_PATH -r
 ```bash
 node src/app.js -d _-
 ```
+
+ex)
+chr001_fire_boy.txt
+  [chr, fire, boy]が検索対象となります。
 
 ## Add specified words (-f)
 ```bash
