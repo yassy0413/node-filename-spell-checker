@@ -1,10 +1,15 @@
 # node-filename-spell-checker
 Search for misspelled file names in the target directory.
+
 The file name is split and validated by the delimiter.
+
 Numbers in the file name will be ignored.
 
+
 対象フォルダ内にあるスペルミスがあるファイル名を検索します。
+
 ファイル名はデリミタによって分割されて検証されます。
+
 ファイル名に含まれる数字は無視されます。
 
 # Setup
